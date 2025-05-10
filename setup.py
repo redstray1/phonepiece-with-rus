@@ -11,6 +11,6 @@ setup(
    url="https://github.com/redstray1/phonepiece-with-rus",
    packages=find_packages(),
    install_requires=requirements,
-   package_data={'': ['*.csv', '*.tsv', 'tree.txt', 'pinyin2ipa.txt', 'model/*']},
+   package_data={'': ['*.csv', '*.tsv', 'tree.txt', 'pinyin2ipa.txt', 'model/latest/rus/*', 'model/latest/rus/g2p/*.csv']},
    include_package_data=True,
 )
