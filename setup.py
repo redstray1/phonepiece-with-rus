@@ -11,6 +11,6 @@ setup(
    url="https://github.com/xinjli/phonepiece",
    packages=find_packages(),
    install_requires=requirements,
-   package_data={'': ['*.csv', '*.tsv', 'tree.txt', 'pinyin2ipa.txt']},
+   package_data={'': ['*.csv', '*.tsv', 'tree.txt', 'pinyin2ipa.txt', 'model/*']},
    include_package_data=True,
 )
